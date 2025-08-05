@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
 
 using namespace std;
@@ -14,7 +13,6 @@ int abs(int a, int b) {
 int comb(int n, int r) {
     return factArr[n] / (factArr[r] * factArr[n-r]);
 }
-vector<int> v;
 
 int main() {
     int n;
